@@ -1,18 +1,19 @@
 @extends('layouts.admin')
 @section('title')
-الرئيسية
+    الرئيسية
 @endsection
 @section('contentheader')
-الرئيسية
+    الرئيسية
 @endsection
 @section('contentheaderlink')
-<a href="{{ route('admin.dashboard') }}"> الرئيسية </a>
+    <a href="{{ route('admin.dashboard') }}"> الرئيسية </a>
 @endsection
 @section('contentheaderactive')
-عرض
+    عرض
 @endsection
 @section('content')
-<div class="row" style="background-image: url({{ asset('assets/admin/imgs/dash.jpg') }}) ;background-size:cover;background-repeate:ni-repeate; min-height:600px;">
- 
-</div>
+    <div class="row"
+        style="background-image: url({{ asset('assets/admin/imgs/dash.jpg') }}) ;background-size:cover;background-repeate:ni-repeate; min-height:600px;">
+
+    </div>
 @endsection

@@ -6,10 +6,14 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Request as FacadesRequest;
 
 class DashboardController extends Controller
 {
     public function index(){
+        // dd(file('./../assets/admin/css/test.txt'));
+
+
 return view('admin.dashboard');
     }
 }
