@@ -9,6 +9,28 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <title>@yield('title')</title>
+
+      <!-- SEO -->
+      <meta name="description" content="منتجات مبتكرة ومنتجات ابداعية">
+      <meta name="keywords" content="منتجات,مبتكرة,ومنتجات,ابداعية">
+      <meta property="store:published_time" content="2023-024-20T01:45:09+03:00">
+      <meta property="og:description" content="منتجات مبتكرة ومنتجات ابداعية" />
+      <meta property="og:title" content="متجر رحال" />
+      <meta property="og:type" content="store" />
+      <meta property="og:locale" content="ar_AR" />
+      <meta property="og:locale:alternate" content="ar_AR" />
+      <meta property="og:locale:alternate" content="en_US" />
+      <meta property="og:url" content="https://rahaal.store" />
+      <meta property="og:image" content="" />
+      <meta property="og:image:width" content="600" />
+      <meta property="og:image:height" content="300" />
+      <meta name="twitter:description" content="منتجات مبتكرة ومنتجات ابداعية" />
+      <meta name="twitter:image" content="" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="متجر رحال" />
+      <meta name="twitter:url" content="https://rahaal.store" />
+      <meta name="twitter:site" content="@rahaal_store" />
+      <meta name="twitter:creator" content="@rahaal_store" />
       <!-- Font Awesome Icons -->
       <link rel="stylesheet" href="{{ asset('./../assets/admin/plugins/fontawesome-free/css/all.min.css') }}">
       <!-- Theme style -->
